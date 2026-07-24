@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/NKG-MATH/', // <-- Ye line sabse important hai!
+  base: '/NKG-MATH/',
 })
