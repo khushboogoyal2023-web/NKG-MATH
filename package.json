@@ -9,7 +9,8 @@
     "lint": "eslint . --quiet",
     "lint:fix": "eslint . --fix",
     "typecheck": "tsc -p ./jsconfig.json",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && git add . && git commit -m 'Deploy to GitHub Pages' && git push origin main"
   },
   "dependencies": {
     "@hello-pangea/dnd": "^17.0.0",
